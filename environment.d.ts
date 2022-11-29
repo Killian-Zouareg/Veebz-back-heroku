@@ -1,0 +1,12 @@
+declare global {
+    namespace NodeJS {
+      interface ProcessEnv {
+        NEO4J__SECRET__KEY: "eyJhbGciOiJQUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Ii4rQC4rIiwibWl4cGFuZWxJZCI6IjE3Zjg3ZDYzYjJjMjUtMGQ1NGJkM2M4MjNhM2UtNzAyZDY3NWQtMWZhNDAwLTE3Zjg3ZDYzYjJkODE3IiwibWl4cGFuZWxQcm9qZWN0SWQiOiI0YmZiMjQxNGFiOTczYzc0MWI2ZjA2N2JmMDZkNTU3NSIsIm9yZyI6Ii4qIiwicHViIjoibmVvNGouY29tIiwicmVnIjoiICIsInN1YiI6Im5lbzRqLWRlc2t0b3AiLCJleHAiOjE2ODE0NzU5MDMsInZlciI6IioiLCJpc3MiOiJuZW80ai5jb20iLCJuYmYiOjE2NDk5Mzk5MDMsImlhdCI6MTY0OTkzOTkwMywianRpIjoieEdQUEtFcWxJIn0.bTMKZyh-qtScfPyuW4hCbkENjbRiivBY-OEtzeQOETmCGTrTi2JDtYWkklJ6bg8lMCFXAkIYqHye5CaFEZhveg0m7Axwpsh5GUOVLMM9huFhs6nM7AAVgbiolGe8OztWhrM86dt_d-K9CZomB2fkn4XRTaUSIjfQkmbp2MukZ8KnIh4hQPtGh4ryEjZN2AXNi-jGpxXCf8sVZIQLZK3kQ0kYYgQsnIyxt5I3HXKEvOAEdW3Vh0bUF-jHjnzBbbcXkV5bHk1njFtAOgjnM9pgygbtYTAIc8hfo2HGfSfFbpKZ1RD-OU5NxmrE9wcgzhVRN_WAq7nwwHkgiNvlCV8vHg";
+        NEO4J__VEEBZ__DATABASE__USERNAME: "neo4j";
+        NEO4J__VEEBZ__DATABSE__PASSWORD: "GatO5qBwEaoNzOB19g3b5G78wPJDMEm20_jfrvnltjM";
+        NEO4J__VEEBZ__DATABASE__URL: "neo4j+s://4cd66985.databases.neo4j.io:7687";
+      }
+    }
+  }
+
+  export {}
